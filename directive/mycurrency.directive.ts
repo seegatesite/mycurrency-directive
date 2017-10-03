@@ -1,5 +1,5 @@
 import { Directive, HostListener, ElementRef, OnInit } from '@angular/core';
-import {MycurrencyPipe} from './pipe/MycurrencyPipe.pipe';
+import {MycurrencyPipe} from '../pipe/mycurrency.pipe';
 @Directive({
   selector: '[appMycurrency]'
 })
